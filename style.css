@@ -47,9 +47,42 @@ body{
 .container h1{
   font-size: 3vh;
   color: var(--Stone-900);
+  margin-bottom: 11px;
 }
 
 .container p{
   font-family: var(--fuente-Outfit);
   color: var(--Stone-600);
+  font-size: 13px;
+  margin-bottom: 29px;
 }
+
+
+/** prepaparacion*/
+
+.preparacion{
+  background:var(--Rose-50);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 24px;
+}
+
+.preparacion h3{
+  color: var(--Rose-800);
+  font-family: var(--fuente-Outfit);
+  font-weight:bold;
+  font-size: 14px;
+  margin-bottom: 10px;
+  
+}
+
+.preparacion ul li{
+  font-size: 13px;
+  color: var(--Stone-600);
+  font-family: var(--fuente-Outfit);
+  margin-bottom: 10px;
+  margin-left: 20px;
+  padding: 0 0 0 9px;
+}
+
+/** ingredientes*/
