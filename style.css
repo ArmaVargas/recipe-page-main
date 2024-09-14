@@ -91,7 +91,7 @@ body {
 .Ingredientes h2,
 .intrucciones h2,
 .nutricion h2 {
-  font-size: 2.5vh;
+  font-size: 1.2  rem;
   color: var(--Brown-800);
   margin-bottom: 13px;
   font-weight: 400;
@@ -149,4 +149,50 @@ hr {
 
 .tabla tr:last-child {
   border-bottom: none;
+}
+
+/** mobile*/
+
+@media(max-width:375px){
+  body {
+    
+    min-height:0vh;
+  }
+
+  .container {
+    border-radius: 0px;
+    padding:40px 30px 10px 30px;
+    margin-top: 140px;
+    max-width: 500px;
+    
+  }
+
+  .container img{
+    position: absolute;
+    top: 0px;
+    left: -3px;
+    width: 106%;
+    height: 11%;
+    object-fit: cover;
+    border-radius: 0;
+    margin-bottom: 150px;
+  }
+
+  .container h1 {
+    font-size: 36px;
+    line-height: 39px;
+    
+  }
+  .container p {
+    font-size: 16px;
+    
+  }
+
+  .preparacion{
+    width: 98%;
+  }
+
+  .nutricion p{
+  font-size: 17px;
+  }
 }
