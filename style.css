@@ -91,7 +91,7 @@ body {
 .Ingredientes h2,
 .intrucciones h2,
 .nutricion h2 {
-  font-size: 1.2  rem;
+  font-size: 1.2 rem;
   color: var(--Brown-800);
   margin-bottom: 13px;
   font-weight: 400;
@@ -139,10 +139,10 @@ hr {
   font-family: var(--fuente-Outfit);
 }
 
-.tabla tr td{
+.tabla tr td {
   padding: 0.5em;
 }
-.tabla tr td:nth-of-type(2){
+.tabla tr td:nth-of-type(2) {
   color: var(--Brown-800);
   font-weight: bold;
 }
@@ -153,21 +153,19 @@ hr {
 
 /** mobile*/
 
-@media(max-width:375px){
+@media (max-width: 375px) {
   body {
-    
-    min-height:0vh;
+    min-height: 0vh;
   }
 
   .container {
     border-radius: 0px;
-    padding:40px 30px 10px 30px;
+    padding: 40px 30px 10px 30px;
     margin-top: 140px;
     max-width: 500px;
-    
   }
 
-  .container img{
+  .container img {
     position: absolute;
     top: 0px;
     left: -3px;
@@ -181,18 +179,16 @@ hr {
   .container h1 {
     font-size: 36px;
     line-height: 39px;
-    
   }
   .container p {
     font-size: 16px;
-    
   }
 
-  .preparacion{
+  .preparacion {
     width: 98%;
   }
 
-  .nutricion p{
-  font-size: 17px;
+  .nutricion p {
+    font-size: 17px;
   }
 }
